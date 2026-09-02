@@ -4,6 +4,7 @@
   "description": "Bot Discord - wezwania Służby Więziennej",
   "main": "src/index.js",
   "type": "commonjs",
+  "license": "MIT",
   "scripts": {
     "start": "node src/index.js",
     "dev": "node --watch src/index.js",
