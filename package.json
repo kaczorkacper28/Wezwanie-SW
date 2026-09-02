@@ -1,0 +1,16 @@
+{
+  "name": "wezwanie-sw",
+  "version": "1.0.0",
+  "description": "Bot Discord - wezwania Służby Więziennej",
+  "main": "src/index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "deploy": "node src/deploy-commands.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.25.1",
+    "dotenv": "^16.6.1"
+  }
+}
