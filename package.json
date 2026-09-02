@@ -1,4 +1,6 @@
-"scripts": {
-  "start": "node src/deploy-commands.js && node src/index.js",
-  "deploy": "node src/deploy-commands.js"
+{
+  "scripts": {
+    "start": "node src/deploy-commands.js && node src/index.js",
+    "deploy": "node src/deploy-commands.js"
+  }
 }
