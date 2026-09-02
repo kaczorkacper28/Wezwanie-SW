@@ -7,7 +7,7 @@ const {
   EmbedBuilder
 } = require("discord.js");
 
-const token = process.env.DISCORD_TOKEN;
+const token = process.env.TOKEN;
 const roleId = process.env.ROLE_ID;
 const callChannelId = process.env.CALL_CHANNEL_ID;
 
