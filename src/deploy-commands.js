@@ -3,12 +3,12 @@ require("dotenv").config();
 const { REST, Routes } = require("discord.js");
 const commands = require("./commands");
 
-const token = process.env.DISCORD_TOKEN;
+const token = process.env.TOKEN;
 const clientId = process.env.CLIENT_ID;
 const guildId = process.env.GUILD_ID;
 
 if (!token || !clientId || !guildId) {
-  console.error("❌ Uzupełnij DISCORD_TOKEN, CLIENT_ID i GUILD_ID w pliku .env");
+  console.error("❌ Uzupełnij TOKEN, CLIENT_ID i GUILD_ID w pliku .env");
   process.exit(1);
 }
 
