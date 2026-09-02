@@ -27,7 +27,7 @@ npm install
 
 4. Skopiuj `.env.example` jako `.env`.
 5. Uzupełnij:
-   - `DISCORD_TOKEN`
+   - `TOKEN`
    - `CLIENT_ID`
    - `GUILD_ID`
 
